@@ -4,13 +4,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  /* Adjust padding for better spacing */
-  /* background-color: #333; */
   border: 2px solid rgba(15, 14, 14, 0.785);
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
   
   position: relative;
-  /* For positioning the menu on smaller screens */
 }
 .m{
   color: #FF7E5F;
@@ -22,7 +19,6 @@
   margin-left: 60px;
 }
 
-/* Ensure that the menu toggle is hidden on larger screens */
 .menu-toggle {
   display: none;
 }
@@ -47,11 +43,8 @@
   padding: 0;
   display: flex;
   gap: 3.5rem;
-  /* Adds space between links */
   flex-grow: 1;
-  /* Allows the links to take available space */
   justify-content: center;
-  /* Centers the links horizontally */
 }
 
 .nav-links li {
@@ -64,13 +57,7 @@
   font-size: 1rem;
   transition: 0.5s;
 }
-/* .nav-links a::before{
-  content: ' ';
-  height: 2px;
-  width: auto;
-  background-color: #FF7E5F;
-  position: absolute;
-} */
+
 .nav-links a:hover {
   font-size: 1.1rem;
   color: #FF7E5F;
